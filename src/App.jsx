@@ -10,7 +10,7 @@ import './main/style.css';
 export default function App() {
   return (
     <>
-      <h2 className="cms-title">Contact Management</h2>
+      <h2 className="cms-title">Contact management</h2>
       <MainNavBar />
       <Routes>
         <Route path="/add-contact" element={<AddContact />} />
